@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 198, 198);
+    background-image: url(fundo-cafe.png);
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login{
+    background-color:rgb(173, 121, 173);
+    margin-top: 20px;
+    margin: 50px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.login:hover{
+    background-color: crimson;
+    transition: 0.5s;
+}
+
+input{
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: none;
+    margin: 8px;
+    
+}
+
+#botao{
+    color:black;
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid white;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    
+}
+
+#botao:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a{
+    margin-top: 15px;
+}
+
+.login img{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+input:hover{
+    color: rgb(255, 0, 51);
+    
+}
+
